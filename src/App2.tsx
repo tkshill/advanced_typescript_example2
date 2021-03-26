@@ -12,7 +12,7 @@ type PokemonReturned = { type: "PokemonReturned"; value: string };
 
 // Helper funcs
 function getRandomId() {
-  return Math.floor(Math.random() * 251) + 1;
+  return Math.floor(Math.random() * 551) + 1;
 }
 
 // Init
